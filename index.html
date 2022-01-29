@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-
+        <script src="js/all.js"></script>
         <style>
                  @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
@@ -66,7 +66,7 @@ animation: none;
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#Skills">Skills</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Projects</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -138,9 +138,9 @@ animation: none;
                 <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Skills</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
+                    <!-- <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-line"></div> -->
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
@@ -148,15 +148,27 @@ animation: none;
                     <div class="col-md-6 col-lg-4 mb-5">
                               <!--Panel-->
                         <div class="card bg-dark card-body hoverable">
-                            <i  style="color: white;" class="fas fa-code fa-3x mb-4 white-text" aria-hidden="true"></i>
-                            <h5  style="color: white;" class="font-weight-bold text-uppercase mb-4 white-text">Front End</h5>
-                            <p  style="color: white;" class="  grey-text white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <i  style="color: white;" class="fab fa-angular fa-3x mb-4 white-text" aria-hidden="true"></i>
+                            <h5  style="color: white;" class="font-weight-bold text-uppercase mb-4 white-text">JAVASCRIPT / ANGULAR</h5>
+                            <p  style="color: white;" class="grey-text white-text">Web aplications using html, css and Javascript with Angular</p>
                         </div>
                         <!--/.Panel-->
                     </div>
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                          <!--Panel-->
+                        <!--Panel-->
+                        <div class="card bg-dark card-body hoverable">
+                            <i  style="color: white;" class="fab fa-php fa-3x mb-4 white-text" aria-hidden="true"></i>
+                            <h5  style="color: white;" class="font-weight-bold text-uppercase mb-4 white-text">PHP / Laravel</h5>
+                            <p  style="color: white;" class="  grey-text white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <!--/.Panel-->
+
+                        
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                              <!--Panel-->
                           <div class="card bg-dark card-body hoverable">
                             <i style="color: white;" class="fas fa-database fa-3x mb-4 white-text" aria-hidden="true"></i>
                             <h5 style="color: white;"  class="font-weight-bold text-uppercase mb-4 white-text">SQL / MYSQL</h5>
@@ -164,68 +176,56 @@ animation: none;
                         </div>
                         <!--/.Panel-->
                     </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                         <!--Panel-->
-                         <div class="card bg-dark card-body hoverable">
-                            <i  style="color: white;" class="fas fa-code fa-3x mb-4 white-text" aria-hidden="true"></i>
-                            <h5  style="color: white;" class="font-weight-bold text-uppercase mb-4 white-text">PHP / Laravel</h5>
-                            <p  style="color: white;" class="  grey-text white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <!--/.Panel-->
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </section>
         <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
+        <section class="page-section bg-light text-white mb-0" id="about">
             <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-dark mb-0">Projects</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
+                <div class="divider-custom">
+                    <!-- <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-line"></div> -->
                 </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                              <!--Panel-->
+                        <div class="card  bg-primary card-body hoverable">
+                            <i  style="color: white;" class="fab fa-angular fa-3x mb-4 " aria-hidden="true"></i>
+                            <h5  style="color: white;" class="font-weight-bold text-uppercase mb-4 ">JAVASCRIPT / ANGULAR</h5>
+                            <p  style="color: white;" class="grey-text ">Web aplications using html, css and Javascript with Angular</p>
+                        </div>
+                        <!--/.Panel-->
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <!--Panel-->
+                        <div class="card  bg-primary card-body hoverable">
+                            <i  style="color: white;" class="fab fa-php fa-3x mb-4 white-text" aria-hidden="true"></i>
+                            <h5  style="color: white;" class="font-weight-bold text-uppercase mb-4 white-text">PHP / Laravel</h5>
+                            <p  style="color: white;" class="  grey-text white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <!--/.Panel-->
+
+                        
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                              <!--Panel-->
+                          <div class="card  bg-primary card-body hoverable">
+                            <i style="color: white;" class="fas fa-database fa-3x mb-4 white-text" aria-hidden="true"></i>
+                            <h5 style="color: white;"  class="font-weight-bold text-uppercase mb-4 white-text">SQL / MYSQL</h5>
+                            <p  style="color: white;" class="  grey-text white-text">Administration, programming and cousulting of MySql</p>
+                        </div>
+                        <!--/.Panel-->
+                    </div>
+                   
                 </div>
             </div>
         </section>
@@ -308,9 +308,9 @@ animation: none;
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
-                            2215 John Daniel Drive
+                            C.16 94, Cacalchén, Yucatán.
                             <br />
-                            Clark, MO 65243
+                            C.P. 97460
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
@@ -335,7 +335,7 @@ animation: none;
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2021</small></div>
+            <div class="container"><small>Copyright &copy; Sergio Eb Gallegos 2021</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
@@ -533,7 +533,8 @@ animation: none;
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="js/scripts.js"></script> 
+
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
